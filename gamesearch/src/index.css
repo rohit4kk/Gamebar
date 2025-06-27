@@ -1,0 +1,15 @@
+@import "tailwindcss";
+.text-gradient {
+  @apply bg-linear-to-r from-[#ff00ea] via-[#fb6e6e] to-[#ffe137] bg-clip-text text-transparent;
+}
+.genre-pill {
+  @apply bg-gradient-to-r from-[#FF6EC7] to-[#9B5DE5] text-white rounded-full px-2 text-sm;
+}
+
+.main-button {
+  @apply bg-[#5DE2E2] hover:bg-[#3ABEFF] text-black font-semibold rounded-md p-2 transition duration-200;
+}
+
+.platform-pill {
+  @apply bg-[#003791] text-white rounded-full px-2 text-sm;
+}
